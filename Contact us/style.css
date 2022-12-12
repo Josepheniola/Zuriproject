@@ -1,0 +1,10 @@
+*{
+    font-family: sans-serif;
+
+}
+input{
+    width:80%;
+    height: 40px;
+    margin: 30px;
+    border-style: inset;
+}

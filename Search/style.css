@@ -1,0 +1,29 @@
+*{
+    font-family:sans-serif;
+}
+.background{
+    background-color: aquamarine;
+    width: 70%;
+    padding: 5px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+input{
+    width:20%;
+    height: 40px;
+    margin: 30px;
+    position: relative;
+    left: 200px;
+}
+@media screen and (max-width:400px) {
+    .background{
+        width: 100%;
+    }
+    input{
+        position: relative;
+        left:80px;
+        top:25px;
+        width: 50%;
+    }
+}

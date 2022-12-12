@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+h2{
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+input{
+    width:40%;
+    height: 40px;
+    margin: 30px;
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+}
+th{
+    text-align: left;
+}
+tr:hover{
+    background-color: gray;
+}
+table{
+    width: 70%;
+    border-spacing: 40px;
+    margin: auto;
+}
+th , td{
+    border-bottom: 1px solid #ddd;
+}
+@media screen and (max-width:400px) {
+    table{
+        width:100px;
+    }
+    input{
+        position: relative;
+        left:80px;
+        top:25px;
+    }
+}
